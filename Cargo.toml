@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = ["ltc-py", "ltc-rs"]
+default-members = ["ltc-rs"]
+
+[workspace.package]
+version = "1.0.2"
+authors = [
+    "Balthasar Teuscher <balthasar.teuscher@tum.de>",
+    "Johann Maximilian Zollner <maximilian.zollner@tum.de>",
+]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tum-bgd/ltc"

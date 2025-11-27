@@ -1,0 +1,15 @@
+[package]
+name = "ltc-rs"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description = "Rust implementation of the Lifetime Clustering (LTC) algorithm."
+license.workspace = true
+repository.workspace = true
+keywords = ["clustering"]
+categories = ["science", "algorithms"]
+
+[dependencies]
+num-traits = "0.2.19"
+rayon = { version = "1.11.0" }
+srtree = "0.2.1"
