@@ -28,6 +28,8 @@ ltc.fit(data) # cluster
 
 labels = ltc.labels_ # get labels
 ```
+Check our [demo notebook](https://github.com/tum-bgd/ltc/blob/main/scripts/demo.ipynb) for more elaborated examples.
+
 ### Rust
 
 To use directly in Rust, add it with `cargo add ltc-rs` as a dependency to your `Cargo.toml`.
